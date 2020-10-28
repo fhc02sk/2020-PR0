@@ -9,7 +9,6 @@ public class Example3 {
         methodB("sunny, 15°C");
         String wetterStatusinGraz = methodC("rainy, 5°C");
         System.out.println("wetterStatusinGraz = " + wetterStatusinGraz);
-
     }
 
     public static void methodA(){
