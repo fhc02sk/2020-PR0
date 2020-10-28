@@ -7,11 +7,12 @@ public class Example1 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Bitte geben Sie Wert für a ein");
+        System.out.println("Bitte geben Sie Wert für a ein: ");
         int a = input.nextInt();
         int b;
-        System.out.println("Bitte geben Sie Wert für b ein");
-        b = input.nextInt();;
+        System.out.println("Bitte geben Sie Wert für b ein: ");
+        b = input.nextInt();
+
         /*
         double pi = 3.1415;
         char characterA = 'A';
@@ -28,5 +29,7 @@ public class Example1 {
         ergebnis = a / b;
         System.out.println(a + " / " + b + " = " + ergebnis);
         System.out.println(a + " % " + b + " = " + (a % b));
+
+
     }
 }
