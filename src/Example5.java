@@ -26,7 +26,10 @@ public class Example5 {
 
         int tankfuellung = 50;
         if (tankfuellung < 10){
-            System.out.println("bitte tanken");
+            System.out.println("bald leer");
+        }
+        else {
+
         }
 
     }
