@@ -19,6 +19,10 @@ public class Example3 {
         System.out.println("Heute ist es in Graz: " + weatherStatus);
     }
 
+    public static void moveX(int countSteps){
+        // countSteps nach vorne gehen
+    }
+
     public static String methodC(String weatherStatus){
         String result = "Heute ist es in Graz: " + weatherStatus;
         return result;
